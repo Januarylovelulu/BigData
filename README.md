@@ -4,17 +4,12 @@
 制作了许多运算符重载，类和类，类和变量直接用+-*/就可以运算
 
 用例：
-BigData b1("100");//初始化为100
-
-BigData b2(10);
-
-BigData b3;//默认初始化为0
-
-qDebug()<<b1+100; //200
-
-qDebug()<<100+b1+"100"; //300
-
-qDebug()<<b1.length(); //3
+BigData b1("100");//初始化为100\n
+BigData b2(10);\n
+BigData b3;//默认初始化为0\n
+qDebug()<<b1+100; //200\n
+qDebug()<<100+b1+"100"; //300\n
+qDebug()<<b1.length(); //3\n
 
 
 缺点&注意事项
