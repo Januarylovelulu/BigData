@@ -5,10 +5,15 @@
 
 用例：
 BigData b1("100");//初始化为100
+
 BigData b2(10);
+
 BigData b3;//默认初始化为0
+
 qDebug()<<b1+100; //200
+
 qDebug()<<100+b1+"100"; //300
+
 qDebug()<<b1.length(); //3
 
 
